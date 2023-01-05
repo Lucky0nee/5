@@ -4,7 +4,7 @@ using namespace std;
 int main() {
     setlocale(LC_CTYPE, "ukr");
     const double верста = 1.067;
-    int кiлькiстьВерст;
+    double кiлькiстьВерст;
     printf("%25s", "Введiть кiлькiсть верст: ");
     cin >> кiлькiстьВерст;
     printf("%11s", "Кiлометри: ");
